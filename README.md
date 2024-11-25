@@ -81,12 +81,6 @@ This repository integrates **Involution Layers**, **MobileNetV2**, and **Multi-T
 
 
 
-## Example Outputs
-- **Input Image (Hazy)**:
-  ![Hazy Image](examples/hazy_image.png)
-
-- **Output Image (Dehazed)**:
-  ![Dehazed Image](examples/dehazed_image.png)
 
 ## Dependencies
 - Python 3.7+
