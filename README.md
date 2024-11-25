@@ -61,6 +61,26 @@ This script implements an **image dehazing algorithm** based on **Dark Channel P
      ```
 3. Save or visualize the dehazed image.
 
+   # Advanced Image Segmentation and Classification Framework
+
+This repository integrates **Involution Layers**, **MobileNetV2**, and **Multi-Task U-Net Architectures** to perform segmentation and classification tasks on images. It also includes enhancement techniques like **Dark Channel Prior (DCP)** and **Multi-Scale Retinex (MSR)** for preprocessing.
+
+## Features
+
+- **Involution Neural Networks (INNs)**:
+  - Efficient feature extraction with reduced computational overhead.
+- **MobileNetV2 Backbone**:
+  - Pretrained model for segmentation and classification tasks.
+- **Multi-Task U-Net Architecture**:
+  - Simultaneous image segmentation and classification outputs.
+- **Dark Channel Prior & MSR**:
+  - Image dehazing and dynamic range enhancement.
+- **Custom Loss Functions**:
+  - Focal loss and Mean IoU for improved segmentation accuracy.
+
+
+
+
 ## Example Outputs
 - **Input Image (Hazy)**:
   ![Hazy Image](examples/hazy_image.png)
